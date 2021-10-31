@@ -1,0 +1,14 @@
+def checkPalindrome(num):
+    reversed_num=num[::-1]
+    status=1
+    if(num!=reversed_num):
+        status=0
+    return status 
+    
+    
+num = input()
+isPalindrome = checkPalindrome(num)
+if(isPalindrome):
+	print('true')
+else:
+	print('false')
